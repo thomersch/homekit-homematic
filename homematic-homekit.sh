@@ -28,7 +28,7 @@ restart() {
 }
 
 case "$1" in
-  start)
+  ""|start)
     start
     ;;
   stop)
